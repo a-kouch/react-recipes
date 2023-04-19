@@ -1,3 +1,12 @@
+This project aims to reflect my improvements with HTML, CSS and the React framework by revisiting my first recipe website project.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
