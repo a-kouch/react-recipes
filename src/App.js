@@ -6,6 +6,8 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Category from './components/pages/Category';
 
+
+
 function App() {
   return (
     <>
