@@ -3,7 +3,7 @@ import '../../App.css';
 // import './Pages.css';
 
 export default function About() {
-    return <div className='aboutMe'>
+    return ( <div className='aboutMe'>
         <div className='main-container'>
             <div className='title-container'>
                 <h1>Hi, I'm Anthony!</h1>
@@ -17,5 +17,5 @@ export default function About() {
                 </p>
             </div>
         </div>
-    </div>
+    </div> );
 }
