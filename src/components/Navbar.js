@@ -32,7 +32,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                  kouchy's kitchen 
+                🌸 Kouchy's Kitchen
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                   <i className={click ? 'fa-solid fa-xmark': 'fa-solid fa-bars'} />
@@ -40,17 +40,17 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                            home
+                            Home
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/Category' className='nav-links' onClick={closeMobileMenu}>
-                            category
+                            Category
                         </Link>
                     </li>
                     <li className='nav-item'>
                         <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
-                            about
+                            About
                         </Link>
                     </li>
                 </ul>

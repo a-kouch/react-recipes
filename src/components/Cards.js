@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Cards() {
     return (
       <div className="cards">
-          <h1>recipes</h1>
+          <h1>Click for the recipe!</h1>
           <div className="cards-container">
               <div className="cards-wrapper">
                   <ul className="cards-items">
@@ -28,13 +28,13 @@ function Cards() {
                       src="images/img-3.jpg"
                       text="Japanese Souffle Pancakes"
                       label="See More"
-                      path='/SoufflePancake'
+                      path='/soufflepancakes'
                       />
                       <CardItem 
                       src="images/img-4.jpg"
                       text="Japanese Curry"
                       label="See More"
-                      path='/JapaneseCurry'
+                      path='/japanesecurry'
                       />
                   </ul>
               </div>

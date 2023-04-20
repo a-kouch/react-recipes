@@ -5,7 +5,12 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.main-container {
+/* .main-container {
+  display: flex;
+  justify-content: left;
+} */
+
+/* .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,3 +41,7 @@ p {
   margin-left: 30%;
   
 }
+
+h1 {
+  color: #c51515;
+} */
